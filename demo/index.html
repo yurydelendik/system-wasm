@@ -1,10 +1,10 @@
 <script src="../node_modules/systemjs/dist/system.src.js"></script>
-<script src="../thirdparty/wasm.js"></script>
 <script>
   // set our baseURL reference path
   System.config({
     map: {
       wasm: '../index.js',
+      wasmparser: '../node_modules/wasmparser/dist/WasmParser.js',
       env: 'env.js'
     },
     baseURL: '/demo'
